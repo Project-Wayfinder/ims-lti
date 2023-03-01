@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require 'addressable/uri'
 require 'builder'
 require 'faraday'
-require 'faraday_middleware'
+# require 'faraday_middleware'
 require 'json'
 require 'json/jwt'
 require 'rexml/document'
